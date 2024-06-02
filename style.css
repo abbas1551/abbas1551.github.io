@@ -1,0 +1,189 @@
+/* CSS Navigation Bar */
+
+body {
+    background-color: #11161C;
+}
+
+nav {
+    background-color: #1E272E; /* Background Color */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace; /* Robotic font for overall look */
+    font-weight: 600; /* Slightly bolder base font */
+}
+
+nav ul.left li a {
+    font-family: 'Source Code Pro', monospace; /* Enhanced readability for navigation links */
+    /* font-size: 50px; Adjust as needed */
+    letter-spacing: 2px;
+    font-weight: 700; /* Bold emphasis on links */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: #F39C12; /* Primary Dark Color */
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #34495E; /* Secondary Dark Color */
+    color: #FFFFFF; /* White or Light Text */
+}
+
+/* Style the left navigation */
+nav ul.left {
+    margin-left: 20px;
+}
+
+/* Style the right navigation */
+nav ul.right {
+    margin-right: 20px;
+}
+
+/* Add this media query to adjust styles for smaller screens */
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: column; /* Change to a column layout for smaller screens */
+        height: auto; /* Adjust height as needed */
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center; /* Center items in the column */
+    }
+
+    nav ul li {
+        margin-bottom: 10px; /* Add space between list items */
+    }
+
+    nav ul.left,
+    nav ul.right {
+        margin: 0; /* Remove left/right margins */
+    }
+
+    nav ul li a {
+        padding: 10px; /* Adjust padding for smaller touch areas */
+    }
+}
+
+
+/* Your existing CSS styles here */
+
+
+h2{
+    color: #F39C12;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace; /* Robotic font for overall look */
+    font-weight: 600; /* Slightly bolder base font */
+
+}
+/* Additional styling for contact form */
+main {
+    padding: 20px;
+    color: #FFFFFF;
+         /* max-width: 600px; */
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #F39C12;
+    background-color: #1E272E;
+    color: #FFFFFF;
+    max-width: 600px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #F39C12;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff7700;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #F39C12;
+    font-size: 32px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #E67E22;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #F39C12;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.name-with-image {
+    width: 300px; /* Adjust as needed */
+    height: 300px; /* Adjust as needed */
+    mask: url(#text-mask); /* Reference the mask */
+  }
+  
+  .name-with-image text {
+    font-size: 800px; /* Adjust font size as needed */
+    font-family: sans-serif; /* Choose your preferred font */
+    fill: white; /* Mask color */
+  }
+  
+  #text-mask {
+    mask: url(#text-shape); /* Reference the text shape */
+  }
+  
+  #text-shape {
+    height: 0; /* Hide the actual text shape */
+    width: 0; /* Hide the actual text shape */
+  }
