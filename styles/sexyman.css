@@ -1,0 +1,21 @@
+#sexyman{
+    background-color: aqua;
+}
+
+#sexyFace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sexyFace img{
+    /* width: 100%; */
+    height: calc(100vh - 100px);
+}
+
+.hoaveringRectangles{
+    top: 40%;
+    right: 30%;
+    position: absolute;
+    background-color: lightsalmon;
+}

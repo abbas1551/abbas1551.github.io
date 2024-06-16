@@ -1,0 +1,51 @@
+#topbar{
+    margin-bottom: 10px;
+    background-color: #333;
+    display: flex;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+#logo{
+    background-color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+/* #navbar{
+    display: flex;
+    padding: 10px;
+} */
+
+/* css for navbar */
+#navbar {
+    display: flex; /* Arrange radio buttons horizontally */
+    justify-content: space-around; /* Distribute evenly */
+    padding: 10px 20px; /* Add some padding for aesthetics */
+    background-color: #eee; /* Light background color */
+    border-radius: 5px; /* Rounded corners for a smoother look */
+    color: #333;
+}
+
+#navbar input[type="radio"] {
+    display: none; /* Hide the actual radio buttons for a cleaner look */
+}
+
+#navbar label {
+    cursor: pointer; /* Make labels clickable for user interaction */
+    padding: 5px 10px; /* Add padding to labels */
+    border-radius: 5px; /* Match the border radius of the navbar */
+    margin-right: 10px; /* Add spacing between labels */
+    transition: background-color 0.2s ease-in-out; /* Smooth background color change on hover */
+}
+
+#navbar label:hover {
+    background-color: #ddd; /* Slightly darken background on hover */
+}
+
+#navbar input[type="radio"]:checked + label {
+    background-color: #ccc; /* Change background color for the selected radio button */
+}
