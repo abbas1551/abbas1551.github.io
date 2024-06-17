@@ -1,0 +1,59 @@
+@media (max-width: 768px){
+    #topbar {
+        font-family: "Silkscreen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 10px;
+        background-color: #333;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+        color: white;
+        padding: 10px;
+        text-align: center;
+
+    }
+    
+    #logo {
+        margin-bottom: 10px; /* Add spacing below logo */
+        margin-right: 0; /* Reset the margin-right */
+        text-align: center; /* Center the text inside the logo */
+        width: 100%; 
+    }
+    
+    #navbar {
+        display: flex; 
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center;
+        align-items: center;
+        padding: 10px 20px; 
+        background-color: #eee; 
+        border-radius: 5px; 
+        color: #333;
+        width: 100%; /* Ensure it spans full width */
+    }
+    
+    #navbar input[type="radio"] {
+        display: none;
+    }
+    
+    #navbar label {
+        cursor: pointer;
+        padding: 10px 20px; /* Increase padding for touch targets */
+        border-radius: 5px; 
+        margin-bottom: 10px; /* Add spacing between items */
+        transition: background-color 0.2s ease-in-out; 
+        width: 90%; /* Make labels take up most of the width */
+        text-align: center; /* Center text within labels */
+    }
+    
+    #navbar label:hover {
+        background-color: #ddd; 
+    }
+    
+    #navbar input[type="radio"]:checked + label {
+        background-color: #ccc; 
+    }
+    
+}

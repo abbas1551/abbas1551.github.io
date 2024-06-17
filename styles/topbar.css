@@ -1,4 +1,7 @@
 #topbar{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin-bottom: 10px;
     background-color: #333;
     display: flex;
@@ -15,37 +18,32 @@
     margin-right: auto;
 }
 
-/* #navbar{
-    display: flex;
-    padding: 10px;
-} */
 
-/* css for navbar */
 #navbar {
-    display: flex; /* Arrange radio buttons horizontally */
-    justify-content: space-around; /* Distribute evenly */
-    padding: 10px 20px; /* Add some padding for aesthetics */
-    background-color: #eee; /* Light background color */
-    border-radius: 5px; /* Rounded corners for a smoother look */
+    display: flex; 
+    justify-content: space-around;
+    padding: 10px 20px; 
+    background-color: #eee; 
+    border-radius: 5px; 
     color: #333;
 }
 
 #navbar input[type="radio"] {
-    display: none; /* Hide the actual radio buttons for a cleaner look */
+    display: none;
 }
 
 #navbar label {
-    cursor: pointer; /* Make labels clickable for user interaction */
-    padding: 5px 10px; /* Add padding to labels */
-    border-radius: 5px; /* Match the border radius of the navbar */
-    margin-right: 10px; /* Add spacing between labels */
-    transition: background-color 0.2s ease-in-out; /* Smooth background color change on hover */
+    cursor: pointer;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    transition: background-color 0.2s ease-in-out; 
 }
 
 #navbar label:hover {
-    background-color: #ddd; /* Slightly darken background on hover */
+    background-color: #ddd; 
 }
 
 #navbar input[type="radio"]:checked + label {
-    background-color: #ccc; /* Change background color for the selected radio button */
+    background-color: #ccc; 
 }
