@@ -1,0 +1,13 @@
+#projects{
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#ProjectsPreview{
+    background-color: lightgreen;
+    height: calc(100vh - 100px);
+}

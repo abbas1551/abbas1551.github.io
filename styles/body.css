@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+
+.heading{
+    background-color: purple;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

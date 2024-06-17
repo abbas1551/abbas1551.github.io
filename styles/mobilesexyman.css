@@ -1,0 +1,18 @@
+@media (max-width: 768px){
+
+
+    .hoaveringRectangles{
+
+        position: relative ;
+        background-color: lime;
+    }
+    
+    #rectSoftwareDev{
+        /* background-color: lime; */
+        /* opacity: 0.5; */
+        top: -40px;
+        left: 30px;
+        /* right: 30%; */
+    }
+
+}

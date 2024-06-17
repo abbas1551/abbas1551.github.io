@@ -1,0 +1,49 @@
+#topbar{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+    background-color: #333;
+    display: flex;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* width: 100%; */
+}
+
+#logo{
+    background-color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+
+#navbar {
+    display: flex; 
+    justify-content: space-around;
+    padding: 10px 20px; 
+    background-color: #eee; 
+    border-radius: 5px; 
+    color: #333;
+}
+
+#navbar input[type="radio"] {
+    display: none;
+}
+
+#navbar label {
+    cursor: pointer;
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    margin-right: 10px; 
+    transition: background-color 0.2s ease-in-out; 
+}
+
+#navbar label:hover {
+    background-color: #ddd; 
+}
+
+#navbar input[type="radio"]:checked + label {
+    background-color: #ccc; 
+}

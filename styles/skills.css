@@ -1,0 +1,47 @@
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: lightseagreen;
+}
+
+#skillsContent{
+    /* align-items: center; */
+    /* justify-self: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: lightskyblue;
+    height: calc(100vh - 100px);
+}
+
+#labguageLogos img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+#labguageLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#toolsLogos img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#toolsLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

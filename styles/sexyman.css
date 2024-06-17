@@ -1,0 +1,30 @@
+#sexyman{
+    background-color: aqua;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sexyFace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sexyFace img{
+    /* width: 100%; */
+    height: calc(100vh - 100px);
+}
+
+.hoaveringRectangles{
+    /* top: 40%;
+    right: 30%; */
+    position: absolute;
+    background-color: lightsalmon;
+}
+
+#rectSoftwareDev{
+    opacity: 0.5;
+    top: 40%;
+    right: 30%;
+}
